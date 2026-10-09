@@ -1,20 +1,37 @@
-# 🌐 PIR® Public Relations — working repo (private)
+# 🌎 PIR® Public Relations (PR Committee)
 
-> 🔒 **Private** storage for the **Public Relations Committee** of PIR® (Psychedelics In Recovery™):
-> proposals, briefs, and drafts. 🗂️ Written in Markdown so they can be **exported to PDF from VS
-> Code** and shared, e.g. on WhatsApp, with servants who aren't on GitHub yet. A public lane may come
-> later. For now this is storage, and the action happens at the 🎫 **PR Desk**.
+> 🌐 [PR Committee page](https://service.psychedelicsinrecovery.org/pr-committee/) · 📣 [Public Relations](https://www.psychedelicsinrecovery.org/public-relations/) ·
+> 🎫 Need PR's help? Type `/pr` in [PIR®'s Discord](https://discord.gg/MyprTq8w95) or use the [web helpdesk](https://psychedelicsinrecovery.github.io/alex-desk-public/portal.html#pr)
 
-## 🗂️ What's here
-| 📁 Folder | 📄 Document | 🎯 For | 🚦 Status |
-|---|---|---|---|
-| `proposals/` | [`social-commerce-proposal.md`](proposals/social-commerce-proposal.md): WooCommerce channels, organic social, Trustpilot | PR Committee | 📝 Draft for discussion |
-| `briefs/` | [`tradition-7-and-sales-brief.md`](briefs/tradition-7-and-sales-brief.md): literature/merch sales and Tradition 7 | Board | 📝 Discussion brief, **not legal advice** |
+**Attraction, not promotion.** The Public Relations Committee of **Psychedelics In Recovery™ (PIR®)** shapes how the
+fellowship shows up in the world: social media, press and outreach, brand assets, the 📻 Integration Radio podcast
+and the 📰 De Vine News newsletter.
 
-## 🧭 PR at a glance
-- 🎫 **Helpdesk:** [`pr-desk`](https://github.com/psychedelicsinrecovery/pr-desk), or `/pr` in PIR's Discord
-- 🗞️ **Subcommittee:** 2026 Newsletter Committee (De Vine News), plus WhatsApp "PIR Newsletter | PR SubCommittee"
-- 🎙️ **Podcast & A/V team:** working with and as PR (not yet a subcommittee)
-- 🎨 **Brand assets:** [`brand-assets`](https://github.com/psychedelicsinrecovery/brand-assets)
-- 🚧 **Planned subdomain:** `publicrelations.psychedelicsinrecovery.org` (after the main and service sites are unified)
-- 📇 **Who's who:** [`CONTACTS.md`](https://github.com/psychedelicsinrecovery/.github/blob/main/CONTACTS.md)
+## 📣 What PR does
+| | |
+|---|---|
+| 📱 **Social media** | PIR® on Instagram, Facebook, YouTube, TikTok, LinkedIn, Spotify and more |
+| 📰 **Press & outreach** | Answering press questions and sharing PIR® with professionals and communities |
+| 🎨 **Brand** | Logos and usage guidance: [brand-assets](https://github.com/psychedelicsinrecovery/brand-assets) |
+| 📻 **Integration Radio** | PIR®'s podcast: https://integrationradioapirpodcast.buzzsprout.com/2588998/follow |
+| 🗞️ **De Vine News** | The newsletter, made by the Newsletter subcommittee: https://www.psychedelicsinrecovery.org/newsletter/ |
+
+## 🕊️ Anonymity in public
+We keep anonymity at the level of press, radio and film: no full names or faces without explicit consent, and nothing
+that identifies a member. Stories are shared with the storyteller's OK, and only the way they choose.
+
+## 🎫 Working with PR
+- **Posts, flyers, design help, press questions, newsletter submissions:** open a `/pr` ticket. A private thread opens
+  with the PR team, with an ID like `PR-12`.
+- **Using the PIR® or Psychedelics In Recovery™ marks in something new?** Ask first with `/pr`.
+- **Portal:** https://psychedelicsinrecovery.github.io/pr-desk-public/
+
+## 🙋 Serve with PR
+Writers, designers, editors, video and audio helpers and social-media volunteers are always welcome. Say hello in the
+🌎public-relations channel, or tap **Serve with PR** there.
+
+## 🗄️ The private side
+This public repository is a filtered copy of the PR Committee's private working repo, published automatically by an
+allowlist (only this README for now). Proposals and briefs stay private until the committee shares them.
+
+<sub>PIR® and Psychedelics In Recovery™ are marks of Psychedelics In Recovery, a 501(c)(3) nonprofit.</sub>
