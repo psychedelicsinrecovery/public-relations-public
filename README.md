@@ -34,4 +34,9 @@ Writers, designers, editors, video and audio helpers and social-media volunteers
 This public repository is a filtered copy of the PR Committee's private working repo, published automatically by an
 allowlist (only this README for now). Proposals and briefs stay private until the committee shares them.
 
+## 📄 License
+- 💻 **Code:** MIT, see [`LICENSE`](LICENSE)
+- 📝 **Written content** (docs, changelog and library prose, READMEs): CC BY-SA 4.0, see [`LICENSE-CONTENT`](LICENSE-CONTENT)
+- 🏷️ **Names, logos and marks:** not covered by either license, see [`TRADEMARKS.md`](TRADEMARKS.md)
+
 <sub>PIR® and Psychedelics In Recovery™ are marks of Psychedelics In Recovery, a 501(c)(3) nonprofit.</sub>
