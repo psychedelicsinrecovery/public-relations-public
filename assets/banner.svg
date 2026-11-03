@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="t d">
+  <title id="t">Public Relations</title>
+  <desc id="d">Attraction, not promotion. The picture: a sun held by an open circle, and 6 waves drawing in beneath it. With reduced motion, the finished picture shows at once.</desc>
+  <style>
+    /* Motion only for readers who have not asked for less. Outside this block everything is in its finished state. */
+    @media (prefers-reduced-motion: no-preference) {
+      .draw { stroke-dasharray: 100; animation: draw 2.6s cubic-bezier(.4,0,.2,1) both; }
+      .arrive { animation: arrive .5s ease-out both; }
+      .breathe { transform-box: fill-box; transform-origin: center; animation: breathe 8s steps(48) 3s infinite; }
+      .halo { transform-box: fill-box; transform-origin: center; animation: halo 5s steps(60) 3.6s infinite; }
+    }
+    @keyframes draw { from { stroke-dashoffset: 100 } to { stroke-dashoffset: 0 } }
+    @keyframes arrive { from { opacity: 0 } to { opacity: 1 } }
+    @keyframes breathe { 0%, 100% { transform: scale(1) } 50% { transform: scale(1.07) } }
+    @keyframes halo { 0% { opacity: .55; transform: scale(1) } 70%, 100% { opacity: 0; transform: scale(2.1) } }
+    .halo { opacity: 0 }
+  </style>
+  <defs>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d153a"/><stop offset="1" stop-color="#111126"/></linearGradient>
+    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="668" y1="0" x2="1160" y2="0"><stop offset="0.00" stop-color="#7c3aed"/><stop offset="0.50" stop-color="#7c55c4"/><stop offset="1.00" stop-color="#baa6e4"/></linearGradient>
+    <linearGradient id="fade" gradientUnits="userSpaceOnUse" x1="620" y1="0" x2="1200" y2="0"><stop offset="0" stop-color="#7c55c4" stop-opacity="0"/><stop offset=".35" stop-color="#7c55c4"/><stop offset="1" stop-color="#baa6e4"/></linearGradient>
+    <clipPath id="card"><rect width="1200" height="260" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <!-- an opaque ground: the same picture on GitHub's light and dark themes -->
+    <rect width="1200" height="260" fill="url(#ground)"/>
+    <circle class="breathe" cx="1015.1" cy="105.5" r="46" fill="url(#line)"/>
+    <path class="draw" pathLength="100" d="M1075.0 77.8A66 66 0 1 1 1021.0 39.8" fill="none" stroke="#7c55c4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.20s"/>
+    <path class="draw" pathLength="100" d="M620 164.0Q688.6 145.7 757.3 164.0Q825.9 182.3 894.6 164.0Q963.2 145.7 1031.9 164.0Q1100.5 182.3 1169.2 164.0Q1237.8 145.7 1306.4 164.0" fill="none" stroke="url(#fade)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.40s"/>
+    <path class="draw" pathLength="100" d="M620 175.6Q677.9 198.3 735.8 175.6Q793.7 152.9 851.6 175.6Q909.5 198.3 967.3 175.6Q1025.2 152.9 1083.1 175.6Q1141.0 198.3 1198.9 175.6Q1256.8 152.9 1314.7 175.6" fill="none" stroke="url(#fade)" stroke-width="2.8000000000000003" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.90s"/>
+    <path class="draw" pathLength="100" d="M620 187.2Q688.3 210.0 756.5 187.2Q824.8 164.4 893.0 187.2Q961.3 210.0 1029.6 187.2Q1097.8 164.4 1166.1 187.2Q1234.3 210.0 1302.6 187.2" fill="none" stroke="url(#fade)" stroke-width="2.4000000000000004" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.40s"/>
+    <path class="draw" pathLength="100" d="M620 198.8Q691.9 180.4 763.8 198.8Q835.8 217.2 907.7 198.8Q979.6 180.4 1051.5 198.8Q1123.5 217.2 1195.4 198.8Q1267.3 180.4 1339.2 198.8" fill="none" stroke="url(#fade)" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.90s"/>
+    <path class="draw" pathLength="100" d="M620 210.4Q677.6 224.8 735.3 210.4Q792.9 196.0 850.6 210.4Q908.2 224.8 965.9 210.4Q1023.5 196.0 1081.2 210.4Q1138.8 224.8 1196.5 210.4Q1254.1 196.0 1311.8 210.4" fill="none" stroke="url(#fade)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.40s"/>
+    <path class="draw" pathLength="100" d="M620 222.0Q683.1 244.7 746.1 222.0Q809.2 199.3 872.2 222.0Q935.3 244.7 998.3 222.0Q1061.4 199.3 1124.4 222.0Q1187.5 244.7 1250.5 222.0" fill="none" stroke="url(#fade)" stroke-width="1.2000000000000002" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.90s"/>
+    <rect x="0.0" y="248" width="300.5" height="12" fill="#3b1f6e"/><rect x="300.0" y="248" width="300.5" height="12" fill="#7c3aed"/><rect x="600.0" y="248" width="300.5" height="12" fill="#5b2bb5"/><rect x="900.0" y="248" width="300.5" height="12" fill="#ede9fe"/>
+    <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif"><text x="56" y="72.0" fill="#9373ce" font-size="15" font-weight="700" letter-spacing=".6">PIR® · Psychedelics In Recovery™</text><text x="56" y="137.6" fill="#ede9fe" font-size="60" font-weight="700" letter-spacing="-.5">Public Relations</text><text x="56" y="181.4" fill="#d0cbe3" font-size="23">Attraction, not promotion.</text></g>
+  </g>
+</svg>
